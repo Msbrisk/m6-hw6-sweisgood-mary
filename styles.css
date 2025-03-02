@@ -6,7 +6,7 @@
 }
 
 body {
-     color: white;
+     color: black;
      font-family: ariel;
      font-size: 24px;
      margin-right: 20px;
@@ -15,8 +15,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: navy;
+    color: white;
     padding: 10px 0;
 }
 
@@ -48,7 +48,7 @@ header nav ul li a {
 main, nav {
     display: flex;
     justify-content: space-between;
-    background-color: #224
+    background-color: white;
     width: 60%;
     padding: 20px;  
 }
@@ -98,7 +98,7 @@ aside {
 
 footer {
     color: white;
-    background-color: #333;
+    background-color: navy;
     text-allign: center;
     margin-top: auto;
 }
