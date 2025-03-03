@@ -1,19 +1,21 @@
 {
     margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     color: black;
-    font-family: ariel, sans-serif;
+    font-family: Ariel, sans-serif;
     font-size: 24px;
     margin-right: 20px;
     text-decoration: none;
     background-image:url("images/moroccan-flower.png");
     background-repeat: repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -47,18 +49,19 @@ header nav ul li a {
     text-decoration: none;
 }
 
-main, nav {
+main {
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    width: 60%;
-    padding: 20px;  
+    padding: 20px;
+    width: 100%;
+    max-width:1200px;
+    margin: 0 auto;
 }
 
 .content-wrapper {
-    flex:1;
     display: flex;
     flex-direction: column;
+    flex:1; 
 }
 
 .about-section {
@@ -73,8 +76,10 @@ main, nav {
     height: 150px;
     object-fit: cover;
 }
+
 .bio {
     flex: 1;
+    margin-left: 20px;
 }
 
 .bio h2 {
@@ -85,29 +90,28 @@ aside {
     width: 250px;
     padding: 20px;
 }
+
+ul.contact li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul.contact li img {
+    width: 30px;
+}
+
 footer {
-    color: white;
     background-color: navy;
+    color: white;
     text-align: center;
+    padding: 10px 0;
     margin-top: auto;
 }
     
-.logo, .link {
-    color: white;
-}
-
-.logo {
-    margin-right: auto;
-}
-
-.link {
-    margin: 0 4px;
-}
-
 @media (max-width: 768px) {
     main {
         flex-direction: column;
-        align items: center;
+        align-items: center;
 }
 aside {
     width: 100%;
