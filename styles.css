@@ -9,8 +9,6 @@ body {
     color: black;
     font-family: Ariel, sans-serif;
     font-size: 24px;
-    margin: 0;
-    padding: 0;
     width: 100%;
     background-image:url("images/moroccan-flower.png");
     background-size: cover;
@@ -23,8 +21,6 @@ header {
     padding: 10px 0;
     width: 100%;
     position: relative;
-    left: 0;
-    right: 0;
     box-sizing: border-box;
 }
 
@@ -155,8 +151,6 @@ footer {
     width: 100%;
     padding: 10px 0;
     position: relative;
-    left: 0;
-    right: 0;
     box-sizing: border-box;
 }
     
