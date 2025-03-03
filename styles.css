@@ -112,12 +112,8 @@ main {
 }
 
 .contact-me img {
-    width: 150px;
+    width: 5px;
     height: auto;
-}
-
-.bio h2 {
-    margin-bottom: 10px;
 }
 
 .about-section::after {
