@@ -18,6 +18,8 @@ header {
     background-color: navy;
     color: white;
     padding: 10px 0;
+    width: 100%;
+    margin: 0;
 }
 
 header .container {
@@ -25,6 +27,7 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    width: 100%
 }
 
 header h1 {
