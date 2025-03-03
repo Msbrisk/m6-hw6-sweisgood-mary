@@ -111,6 +111,11 @@ main {
     margin-bottom: 15px;
 }
 
+.contact-me img {
+    width: 20px;
+    height: auto;
+}
+
 .bio h2 {
     margin-bottom: 10px;
 }
