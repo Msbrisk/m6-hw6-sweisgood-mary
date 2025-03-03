@@ -39,16 +39,18 @@ header h1 {
 
 header nav {
     display: flex;
+    justify-content: space-between;
+    width: 300px;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
-    margin-right: 20px
+    padding: 0 10px;
 }
 
 header nav a:last-child {
-    margin-right: 0;
+    padding-right: 0;
 }
 
 main {
