@@ -60,21 +60,25 @@ main {
 
 .content-wrapper {
     display: flex;
-    flex-direction: column;
-    flex:1; 
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 0 auto;
+    max-width:1000px;
+    padding: 20px; 
 }
 
 .about-section {
+    flex: 2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 
 .bio {
     text-align: justify;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 600px;
 }
 
 .profile img {
@@ -82,10 +86,34 @@ main {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+    float: left;
 }
+
+.contact-me {
+    flex: 1; /* Make the Contact Me section take less space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-me ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.contact-me ul li {
+    margin-right: 10px; /* Space between icons */
+}
+
+.contact-me h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
 .bio h2 {
     margin-bottom: 10px;
 }
@@ -101,15 +129,6 @@ aside {
     padding: 20px;
 }
 
-ul.contact li {
-    list-style-type: none;
-    margin-bottom: 10px;
-}
-
-ul.contact li img {
-    width: 30px;
-}
-
 footer {
     background-color: navy;
     color: white;
@@ -119,12 +138,13 @@ footer {
 }
     
 @media (max-width: 768px) {
-    main {
-        flex-direction: column;
+   .content-wrapper {
+        flex-direction: column; /* Stack sections vertically */
         align-items: center;
-}
-aside {
-    width: 100%;
-    margin-top: 20px;
+    }
+
+    .contact-me ul {
+        justify-content: center; /* Center the icons in mobile view */
+    }
 }
 
