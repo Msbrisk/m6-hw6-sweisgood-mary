@@ -71,6 +71,12 @@ main {
     margin-bottom: 20px;
 }
 
+.bio {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .profile img {
     border-radius: 50%;
     width: 150px;
@@ -80,12 +86,6 @@ main {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
-.bio {
-    text-align: justify;
-    margin-bottom: 20px;
-}
-
 .bio h2 {
     margin-bottom: 10px;
 }
