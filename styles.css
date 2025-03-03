@@ -8,14 +8,10 @@ body {
     color: black;
     font-family: Ariel, sans-serif;
     font-size: 24px;
-    margin-right: 20px;
-    text-decoration: none;
+    margin-right: 0;
     background-image:url("images/moroccan-flower.png");
-    background-repeat: repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-repeat: repeat;
 }
 
 header {
@@ -63,7 +59,7 @@ main {
     justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width:1000px;
     padding: 20px; 
 }
@@ -92,21 +88,22 @@ main {
 }
 
 .contact-me {
-    flex: 1; /* Make the Contact Me section take less space */
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
+    padding-top: 20px;
 }
 
 .contact-me ul {
     list-style-type: none;
     display: flex;
     padding: 0;
+    gap: 15px;
 }
 
-.contact-me ul li {
-    margin-right: 10px; /* Space between icons */
+.contact-me li {
+    display; inline-block;
 }
 
 .contact-me h3 {
@@ -139,12 +136,12 @@ footer {
     
 @media (max-width: 768px) {
    .content-wrapper {
-        flex-direction: column; /* Stack sections vertically */
+        flex-direction: column;
         align-items: center;
     }
 
     .contact-me ul {
-        justify-content: center; /* Center the icons in mobile view */
+        justify-content: center;
     }
 }
 
