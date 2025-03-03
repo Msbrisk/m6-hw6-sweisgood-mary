@@ -9,7 +9,7 @@ body {
     color: black;
     font-family: Ariel, sans-serif;
     font-size: 24px;
-    margin-right: 0;
+    margin: 0;
     width: 100%;
     background-image:url("images/moroccan-flower.png");
     background-size: cover;
@@ -49,8 +49,8 @@ header nav a {
     padding: 0 10px;
 }
 
-header nav a:last-child {
-    padding-right: 0;
+header nav a:hover {
+    text-decoration: underline;;
 }
 
 main {
